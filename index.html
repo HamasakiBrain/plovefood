@@ -16,241 +16,253 @@
     <meta property="og:url" content="https://plovefood.ru" />
     <meta property="og:image" content="img/og.png" />
 
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css?v=23">
 
     <title>PloveFood</title>
 </head>
 <body>
-    <header data-rellax-speed="1" class="rellax container">
-        <div class="row align-items-center">
-            <div class="col-12 col-md-2">
-                <a href="/" class="logo">
-                    <img src="img/logo.png" alt="Logo">
+<header data-rellax-speed="1" class="rellax container">
+    <div class="row align-items-center">
+        <div class="col-12 col-md-2">
+            <a href="/" class="logo">
+                <img src="img/logo.png?v=1" alt="Logo">
+            </a>
+        </div>
+        <div class="col-12 col-md-6 d-flex">
+            <a href="#about" class="header-link">О нас</a>
+            <a href="#postavka" class="header-link">Поставщикам</a>
+            <a href="#franch" class="header-link">Франшиза</a>
+            <a href="#address" class="header-link">Наши адреса</a>
+        </div>
+        <div class="col-12 col-md-4">
+            <a href="tel:+79872957668" class="header-link font-size-39">+7 987 295-76-68</a>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-7 d-flex justify-content-center flex-column rellax" data-rellax-speed="1">
+                <div class="title">Мы сеть чайхона плов Plovefood, <br>
+                    мы развиваем новое направление “fast food”
+                </div>
+                <div class="description">Теперь Ваши любимые блюда <br>
+                    узбекской кухни доступны к заказу на вынос.
+                </div>
+                <a href="#gallery" class="button">Галерея</a>
+            </div>
+            <div class="col-12 col-md-5 rellax" data-rellax-speed="1">
+                <img src="img/mainPhoto.png" alt="" class="w-100 img">
+            </div>
+        </div>
+        <!--О нас-->
+        <div id="about" class="row section">
+            <div class="col-12 col-md-5 rellax" data-rellax-speed="0.9">
+                <img src="img/photo2.png" alt="" class="w-100 img">
+            </div>
+            <div class="col-12 col-md-7 d-flex justify-content-center flex-column rellax" data-rellax-speed="0.8">
+                <h2 class="h2 title text-uppercase" >О нас</h2>
+                <div class="title">Еда «на ходу» прочно вошла в нашу жизнь.</div>
+                <div class="description">
+                    <p> Мы уже не представляем прогулки без неё. Будь то лёгкий перекус <br> или полноценный приём пищи.
+                    </p>
+                    <p> В меню P.LOVE FOOD огромное количество вкусных блюд, которые удобно взять в формате «на
+                        вынос».</p>
+
+                    <p> Также для Вашего удобства действует доставка по городу: <br>
+                        📞 +7987 295-76-68
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Галерея-->
+    <div class="container-fluid section" id="gallery">
+        <div class="title text-uppercase text-center mb-4 h2 rellax" data-rellax-speed="0.7">Галерея</div>
+        <!-- Slider main container -->
+        <div class="swiper rellax" data-rellax-speed="0.6">
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+
+                <div class="swiper-slide">
+                    <img src="img/gallery/5-min.jpg" alt="Slide 5" class="gallery-img" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/gallery/6-min.jpg" alt="Slide 6" class="gallery-img" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/gallery/7-min.jpg" alt="Slide 7" class="gallery-img" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/gallery/8-min.jpg" alt="Slide 8" class="gallery-img" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/gallery/4-min.jpg" alt="Slide 4" class="gallery-img" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/gallery/9-min.jpg" alt="Slide 9" class="gallery-img" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/gallery/10-min.jpg" alt="Slide 10" class="gallery-img" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/gallery/11-min.jpg" alt="Slide 11" class="gallery-img" loading="lazy">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img/gallery/14-min.jpg" alt="Slide 14" class="gallery-img" loading="lazy">
+                </div>
+
+
+                <div class="swiper-slide">
+                    <img src="img/gallery/15-min.jpg" alt="Slide 15" class="gallery-img" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/gallery/17-min.jpg" alt="Slide 17" class="gallery-img" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/gallery/18-min.jpg" alt="Slide 18" class="gallery-img" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/gallery/19-min.jpg" alt="Slide 19" class="gallery-img" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/gallery/20-min.JPG" alt="Slide 20" class="gallery-img" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/gallery/21-min.JPG" alt="Slide 21" class="gallery-img" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/gallery/22-min.JPG" alt="Slide 22" class="gallery-img" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/gallery/23-min.JPG" alt="Slide 23" class="gallery-img" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/gallery/24-min.JPG" alt="Slide 24" class="gallery-img" loading="lazy">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img/gallery/12-min.jpg" alt="Slide 12" class="gallery-img" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/gallery/13-min.jpg" alt="Slide 13" class="gallery-img" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/gallery/16-min.jpg" alt="Slide 16" class="gallery-img" loading="lazy">
+                </div>
+
+
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </div>
+    <div class="container">
+
+        <!--Франшиза-->
+        <div id="franch" class="row section">
+            <div class="col-12 col-md-5 rellax" data-rellax-speed="0.5">
+                <img src="img/photo3.png" alt="" class="w-100 img">
+            </div>
+            <div class="col-12 col-md-7 d-flex justify-content-center flex-column rellax" data-rellax-speed="0.5">
+                <h2 class="h2 title text-uppercase">Франшиза</h2>
+                <div class="title">Объём рынка доставки еды к 2022 году в России достиг показателей в 170 млрд. руб.
+                </div>
+                <div class="description">
+                    <p> Франшизы магазинов готовой еды и еды на вынос набирают популярность. Мы открыты для партнёрства
+                        с
+                        любыми городами!</p>
+                    <p> P.LOVE (P.LOVE FOOD) на рынке с 2013 года. Партнёр получает: обучение, сопровождение, мобильное
+                        приложение и тд.</p>
+                    <p> 🕚 Ждём Вас в гости ежедневно с 11:00 до 20:00 </p>
+                </div>
+            </div>
+        </div>
+        <!--Поставщикам-->
+        <div id="postavka" class="row section">
+            <div class="col-12 col-md-7 d-flex justify-content-center flex-column rellax" data-rellax-speed="0.4">
+                <h2 class="h2 title text-uppercase">Поставщикам</h2>
+                <div class="title">У Вас есть предложение ? <br>
+                    Мы открыты для партнёрства!
+                </div>
+                <div class="description">
+                    <p>По вопросам сотрудничества Вы можете связаться с нами <br> по номеру: 📞 +7 987 295-76-68 или рабочей эл.
+                        почте:
+                        plovebox@iloveplove.ru</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 rellax" data-rellax-speed="0.3">
+                <img src="img/photo4.png" alt="" class="w-100 img">
+            </div>
+        </div>
+        <!--Наши адреса-->
+        <div id="address" class="row section" >
+            <div class="col-12 rellax" data-rellax-speed="0.2">
+                <div class="title text-uppercase text-center">Наши адреса</div>
+            </div>
+            <div class="col-12 address rellax" data-rellax-speed="0.2">
+                <a href="javascript:;">
+                <span class="icon">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 6.71997C16.8667 6.71997 15.7589 7.05603 14.8166 7.68565C13.8743 8.31527 13.1399 9.21017 12.7062 10.2572C12.2725 11.3042 12.159 12.4563 12.3801 13.5678C12.6012 14.6794 13.1469 15.7003 13.9483 16.5017C14.7496 17.303 15.7706 17.8488 16.8821 18.0699C17.9936 18.291 19.1457 18.1775 20.1928 17.7438C21.2398 17.3101 22.1347 16.5757 22.7643 15.6334C23.3939 14.6911 23.73 13.5833 23.73 12.45C23.73 10.9303 23.1263 9.47283 22.0517 8.39825C20.9771 7.32367 19.5197 6.71997 18 6.71997V6.71997ZM18 16.18C17.2623 16.18 16.5411 15.9612 15.9277 15.5514C15.3143 15.1415 14.8362 14.5589 14.5539 13.8774C14.2716 13.1958 14.1977 12.4458 14.3417 11.7223C14.4856 10.9987 14.8408 10.3341 15.3625 9.81246C15.8841 9.29081 16.5488 8.93556 17.2723 8.79164C17.9959 8.64772 18.7458 8.72159 19.4274 9.0039C20.109 9.28622 20.6915 9.7643 21.1014 10.3777C21.5112 10.9911 21.73 11.7122 21.73 12.45C21.7273 13.4375 21.3332 14.3837 20.634 15.081C19.9347 15.7784 18.9875 16.17 18 16.17V16.18Z"
+                          fill="white"/>
+                    <path d="M29.77 13.4901C29.0915 13.4712 28.4186 13.3602 27.77 13.1601V13.7301C27.77 17.7901 25.35 21.4001 23.58 24.0401L23.22 24.5701C21.5 27.1501 19.22 30.0401 17.99 31.4701C16.81 30.0401 14.48 27.1501 12.76 24.5701L12.42 24.0001C10.65 21.3601 8.22 17.7501 8.22 13.6901C8.22607 12.0086 8.66601 10.3571 9.49727 8.89545C10.3285 7.43378 11.523 6.2114 12.965 5.34657C14.4071 4.48174 16.0479 4.00374 17.7288 3.9588C19.4097 3.91386 21.0738 4.30352 22.56 5.09007C22.6396 4.40248 22.8146 3.72934 23.08 3.09007C21.2842 2.22275 19.2973 1.82677 17.3062 1.93941C15.3151 2.05205 13.3855 2.66961 11.699 3.73392C10.0125 4.79824 8.62462 6.27429 7.6661 8.02307C6.70757 9.77186 6.20992 11.7358 6.22 13.7301C6.22 18.4001 8.84 22.3101 10.76 25.1601L11.11 25.6801C13.0203 28.4487 15.0696 31.1188 17.25 33.6801L18.01 34.5701L18.77 33.6801C20.9502 31.1186 22.9994 28.4485 24.91 25.6801L25.26 25.1501C27.17 22.3001 29.79 18.4001 29.79 13.7301C29.78 13.6501 29.77 13.5701 29.77 13.4901V13.4901Z"
+                          fill="white"/>
+                    <path d="M30 11C32.7614 11 35 8.76142 35 6C35 3.23858 32.7614 1 30 1C27.2386 1 25 3.23858 25 6C25 8.76142 27.2386 11 30 11Z"
+                          fill="white"/>
+                    </svg>
+                </span>
+                    ТРЦ «Южный», Пр.Победы 91
+                </a>
+                <a href="javascript:;">
+                <span class="icon">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 6.71997C16.8667 6.71997 15.7589 7.05603 14.8166 7.68565C13.8743 8.31527 13.1399 9.21017 12.7062 10.2572C12.2725 11.3042 12.159 12.4563 12.3801 13.5678C12.6012 14.6794 13.1469 15.7003 13.9483 16.5017C14.7496 17.303 15.7706 17.8488 16.8821 18.0699C17.9936 18.291 19.1457 18.1775 20.1928 17.7438C21.2398 17.3101 22.1347 16.5757 22.7643 15.6334C23.3939 14.6911 23.73 13.5833 23.73 12.45C23.73 10.9303 23.1263 9.47283 22.0517 8.39825C20.9771 7.32367 19.5197 6.71997 18 6.71997V6.71997ZM18 16.18C17.2623 16.18 16.5411 15.9612 15.9277 15.5514C15.3143 15.1415 14.8362 14.5589 14.5539 13.8774C14.2716 13.1958 14.1977 12.4458 14.3417 11.7223C14.4856 10.9987 14.8408 10.3341 15.3625 9.81246C15.8841 9.29081 16.5488 8.93556 17.2723 8.79164C17.9959 8.64772 18.7458 8.72159 19.4274 9.0039C20.109 9.28622 20.6915 9.7643 21.1014 10.3777C21.5112 10.9911 21.73 11.7122 21.73 12.45C21.7273 13.4375 21.3332 14.3837 20.634 15.081C19.9347 15.7784 18.9875 16.17 18 16.17V16.18Z"
+                          fill="white"/>
+                    <path d="M29.77 13.4901C29.0915 13.4712 28.4186 13.3602 27.77 13.1601V13.7301C27.77 17.7901 25.35 21.4001 23.58 24.0401L23.22 24.5701C21.5 27.1501 19.22 30.0401 17.99 31.4701C16.81 30.0401 14.48 27.1501 12.76 24.5701L12.42 24.0001C10.65 21.3601 8.22 17.7501 8.22 13.6901C8.22607 12.0086 8.66601 10.3571 9.49727 8.89545C10.3285 7.43378 11.523 6.2114 12.965 5.34657C14.4071 4.48174 16.0479 4.00374 17.7288 3.9588C19.4097 3.91386 21.0738 4.30352 22.56 5.09007C22.6396 4.40248 22.8146 3.72934 23.08 3.09007C21.2842 2.22275 19.2973 1.82677 17.3062 1.93941C15.3151 2.05205 13.3855 2.66961 11.699 3.73392C10.0125 4.79824 8.62462 6.27429 7.6661 8.02307C6.70757 9.77186 6.20992 11.7358 6.22 13.7301C6.22 18.4001 8.84 22.3101 10.76 25.1601L11.11 25.6801C13.0203 28.4487 15.0696 31.1188 17.25 33.6801L18.01 34.5701L18.77 33.6801C20.9502 31.1186 22.9994 28.4485 24.91 25.6801L25.26 25.1501C27.17 22.3001 29.79 18.4001 29.79 13.7301C29.78 13.6501 29.77 13.5701 29.77 13.4901V13.4901Z"
+                          fill="white"/>
+                    <path d="M30 11C32.7614 11 35 8.76142 35 6C35 3.23858 32.7614 1 30 1C27.2386 1 25 3.23858 25 6C25 8.76142 27.2386 11 30 11Z"
+                          fill="white"/>
+                    </svg>
+                </span>
+                    ТРЦ «Южный», Пр.Победы 91
                 </a>
             </div>
-            <div class="col-12 col-md-6 d-flex">
-                <a href="#about" class="header-link">О нас</a>
-                <a href="#postavka" class="header-link">Поставщикам</a>
-                <a href="#franch" class="header-link">Франшиза</a>
-                <a href="#address" class="header-link">Наши адреса</a>
-            </div>
-            <div class="col-12 col-md-4">
-                <a href="#gallery" class="header-link font-size-39">+7 995 332 5612</a>
+            <div class="col-12 title text-center mt-3 rellax" data-rellax-speed="0.2">
+                <img src="img/boss.png" alt="" width="30"> В скором времени планируется открытие ещё 10 точек P.LOVE
+                FOOD
             </div>
         </div>
-    </header>
-    <main>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-7 d-flex justify-content-center flex-column rellax" data-rellax-speed="1">
-                    <div class="title">Мы сеть чайхона плов Plovefood, <br>
-                        мы развиваем новое направление “fast food”
-                    </div>
-                    <div class="description">Теперь Ваши любимые блюда <br>
-                        узбекской кухни доступны к заказу на вынос.
-                    </div>
-                    <a href="#gallery" class="button">Галерея</a>
-                </div>
-                <div class="col-12 col-md-5 rellax" data-rellax-speed="1">
-                    <img src="img/mainPhoto.png" alt="" class="w-100 img">
-                </div>
-            </div>
-            <!--О нас-->
-            <div id="about" class="row section">
-                <div class="col-12 col-md-5 rellax" data-rellax-speed="0.9">
-                    <img src="img/photo2.png" alt="" class="w-100 img">
-                </div>
-                <div class="col-12 col-md-7 d-flex justify-content-center flex-column rellax" data-rellax-speed="0.8">
-                    <h2 class="h2 title text-uppercase" >О нас</h2>
-                    <div class="title">Еда «на ходу» прочно вошла в нашу жизнь.</div>
-                    <div class="description">
-                        <p> Мы уже не представляем прогулки без неё. Будь то лёгкий перекус <br> или полноценный приём пищи.
-                        </p>
-                        <p> В меню P.LOVE FOOD огромное количество вкусных блюд, которые удобно взять в формате «на
-                            вынос».</p>
-
-                        <p> Также для Вашего удобства действует доставка по городу:
-                            📞 (тел)
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Галерея-->
-        <div class="container-fluid section" id="gallery">
-            <div class="title text-uppercase text-center mb-4 h2 rellax" data-rellax-speed="0.7">Галерея</div>
-            <!-- Slider main container -->
-            <div class="swiper rellax" data-rellax-speed="0.6">
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-
-                    <div class="swiper-slide">
-                        <img src="img/gallery/5-min.jpg" alt="Slide 5" class="gallery-img" loading="lazy">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/gallery/6-min.jpg" alt="Slide 6" class="gallery-img" loading="lazy">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/gallery/7-min.jpg" alt="Slide 7" class="gallery-img" loading="lazy">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/gallery/8-min.jpg" alt="Slide 8" class="gallery-img" loading="lazy">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/gallery/4-min.jpg" alt="Slide 4" class="gallery-img" loading="lazy">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/gallery/9-min.jpg" alt="Slide 9" class="gallery-img" loading="lazy">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/gallery/10-min.jpg" alt="Slide 10" class="gallery-img" loading="lazy">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/gallery/11-min.jpg" alt="Slide 11" class="gallery-img" loading="lazy">
-                    </div>
-
-                    <div class="swiper-slide">
-                        <img src="img/gallery/14-min.jpg" alt="Slide 14" class="gallery-img" loading="lazy">
-                    </div>
-
-
-                    <div class="swiper-slide">
-                        <img src="img/gallery/15-min.jpg" alt="Slide 15" class="gallery-img" loading="lazy">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/gallery/17-min.jpg" alt="Slide 17" class="gallery-img" loading="lazy">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/gallery/18-min.jpg" alt="Slide 18" class="gallery-img" loading="lazy">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/gallery/19-min.jpg" alt="Slide 19" class="gallery-img" loading="lazy">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/gallery/20-min.JPG" alt="Slide 20" class="gallery-img" loading="lazy">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/gallery/21-min.JPG" alt="Slide 21" class="gallery-img" loading="lazy">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/gallery/22-min.JPG" alt="Slide 22" class="gallery-img" loading="lazy">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/gallery/23-min.JPG" alt="Slide 23" class="gallery-img" loading="lazy">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/gallery/24-min.JPG" alt="Slide 24" class="gallery-img" loading="lazy">
-                    </div>
-
-                    <div class="swiper-slide">
-                        <img src="img/gallery/12-min.jpg" alt="Slide 12" class="gallery-img" loading="lazy">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/gallery/13-min.jpg" alt="Slide 13" class="gallery-img" loading="lazy">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/gallery/16-min.jpg" alt="Slide 16" class="gallery-img" loading="lazy">
-                    </div>
-
-
-                </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
-            </div>
-        </div>
-        <div class="container">
-
-            <!--Франшиза-->
-            <div id="franch" class="row section">
-                <div class="col-12 col-md-5 rellax" data-rellax-speed="0.5">
-                            <img src="img/photo3.png" alt="" class="w-100 img">
-                </div>
-                <div class="col-12 col-md-7 d-flex justify-content-center flex-column rellax" data-rellax-speed="0.5">
-                    <h2 class="h2 title text-uppercase">Франшиза</h2>
-                    <div class="title">Объём рынка доставки еды к 2022 году в России достиг показателей в 170 млрд. руб.
-                    </div>
-                    <div class="description">
-                        <p> Франшизы магазинов готовой еды и еды на вынос набирают популярность. Мы открыты для партнёрства
-                            с
-                            любыми городами!</p>
-                        <p> P.LOVE (P.LOVE FOOD) на рынке с 2013 года. Партнёр получает: обучение, сопровождение, мобильное
-                            приложение и тд.</p>
-                        <p> 🕚 Ждём Вас в гости ежедневно с 11:00 до 20:00 (режим работы уточнить у Васи или Марьям или
-                            ШНТ)</p>
-                    </div>
-                </div>
-            </div>
-            <!--Поставщикам-->
-            <div id="postavka" class="row section">
-                <div class="col-12 col-md-7 d-flex justify-content-center flex-column rellax" data-rellax-speed="0.4">
-                    <h2 class="h2 title text-uppercase">Поставщикам</h2>
-                    <div class="title">У Вас есть предложение ? <br>
-                        Мы открыты для партнёрства!
-                    </div>
-                    <div class="description">
-                        <p>По вопросам сотрудничества Вы можете связаться с нами <br> по номеру: 📞(тел) или рабочей эл.
-                            почте:
-                            @(адрес)</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-5 rellax" data-rellax-speed="0.3">
-                    <img src="img/photo4.png" alt="" class="w-100 img">
-                </div>
-            </div>
-            <!--Наши адреса-->
-            <div id="address" class="row section" >
-                <div class="col-12 rellax" data-rellax-speed="0.2">
-                    <div class="title text-uppercase text-center">Наши адреса</div>
-                </div>
-                <div class="col-12 address rellax" data-rellax-speed="0.2">
-                    <a href="javascript:;">
-                <span class="icon">
-                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M18 6.71997C16.8667 6.71997 15.7589 7.05603 14.8166 7.68565C13.8743 8.31527 13.1399 9.21017 12.7062 10.2572C12.2725 11.3042 12.159 12.4563 12.3801 13.5678C12.6012 14.6794 13.1469 15.7003 13.9483 16.5017C14.7496 17.303 15.7706 17.8488 16.8821 18.0699C17.9936 18.291 19.1457 18.1775 20.1928 17.7438C21.2398 17.3101 22.1347 16.5757 22.7643 15.6334C23.3939 14.6911 23.73 13.5833 23.73 12.45C23.73 10.9303 23.1263 9.47283 22.0517 8.39825C20.9771 7.32367 19.5197 6.71997 18 6.71997V6.71997ZM18 16.18C17.2623 16.18 16.5411 15.9612 15.9277 15.5514C15.3143 15.1415 14.8362 14.5589 14.5539 13.8774C14.2716 13.1958 14.1977 12.4458 14.3417 11.7223C14.4856 10.9987 14.8408 10.3341 15.3625 9.81246C15.8841 9.29081 16.5488 8.93556 17.2723 8.79164C17.9959 8.64772 18.7458 8.72159 19.4274 9.0039C20.109 9.28622 20.6915 9.7643 21.1014 10.3777C21.5112 10.9911 21.73 11.7122 21.73 12.45C21.7273 13.4375 21.3332 14.3837 20.634 15.081C19.9347 15.7784 18.9875 16.17 18 16.17V16.18Z"
-                          fill="white"/>
-                    <path d="M29.77 13.4901C29.0915 13.4712 28.4186 13.3602 27.77 13.1601V13.7301C27.77 17.7901 25.35 21.4001 23.58 24.0401L23.22 24.5701C21.5 27.1501 19.22 30.0401 17.99 31.4701C16.81 30.0401 14.48 27.1501 12.76 24.5701L12.42 24.0001C10.65 21.3601 8.22 17.7501 8.22 13.6901C8.22607 12.0086 8.66601 10.3571 9.49727 8.89545C10.3285 7.43378 11.523 6.2114 12.965 5.34657C14.4071 4.48174 16.0479 4.00374 17.7288 3.9588C19.4097 3.91386 21.0738 4.30352 22.56 5.09007C22.6396 4.40248 22.8146 3.72934 23.08 3.09007C21.2842 2.22275 19.2973 1.82677 17.3062 1.93941C15.3151 2.05205 13.3855 2.66961 11.699 3.73392C10.0125 4.79824 8.62462 6.27429 7.6661 8.02307C6.70757 9.77186 6.20992 11.7358 6.22 13.7301C6.22 18.4001 8.84 22.3101 10.76 25.1601L11.11 25.6801C13.0203 28.4487 15.0696 31.1188 17.25 33.6801L18.01 34.5701L18.77 33.6801C20.9502 31.1186 22.9994 28.4485 24.91 25.6801L25.26 25.1501C27.17 22.3001 29.79 18.4001 29.79 13.7301C29.78 13.6501 29.77 13.5701 29.77 13.4901V13.4901Z"
-                          fill="white"/>
-                    <path d="M30 11C32.7614 11 35 8.76142 35 6C35 3.23858 32.7614 1 30 1C27.2386 1 25 3.23858 25 6C25 8.76142 27.2386 11 30 11Z"
-                          fill="white"/>
-                    </svg>
-                </span>
-                        ТРЦ «Южный», Пр.Победы 91
-                    </a>
-                    <a href="javascript:;">
-                <span class="icon">
-                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M18 6.71997C16.8667 6.71997 15.7589 7.05603 14.8166 7.68565C13.8743 8.31527 13.1399 9.21017 12.7062 10.2572C12.2725 11.3042 12.159 12.4563 12.3801 13.5678C12.6012 14.6794 13.1469 15.7003 13.9483 16.5017C14.7496 17.303 15.7706 17.8488 16.8821 18.0699C17.9936 18.291 19.1457 18.1775 20.1928 17.7438C21.2398 17.3101 22.1347 16.5757 22.7643 15.6334C23.3939 14.6911 23.73 13.5833 23.73 12.45C23.73 10.9303 23.1263 9.47283 22.0517 8.39825C20.9771 7.32367 19.5197 6.71997 18 6.71997V6.71997ZM18 16.18C17.2623 16.18 16.5411 15.9612 15.9277 15.5514C15.3143 15.1415 14.8362 14.5589 14.5539 13.8774C14.2716 13.1958 14.1977 12.4458 14.3417 11.7223C14.4856 10.9987 14.8408 10.3341 15.3625 9.81246C15.8841 9.29081 16.5488 8.93556 17.2723 8.79164C17.9959 8.64772 18.7458 8.72159 19.4274 9.0039C20.109 9.28622 20.6915 9.7643 21.1014 10.3777C21.5112 10.9911 21.73 11.7122 21.73 12.45C21.7273 13.4375 21.3332 14.3837 20.634 15.081C19.9347 15.7784 18.9875 16.17 18 16.17V16.18Z"
-                          fill="white"/>
-                    <path d="M29.77 13.4901C29.0915 13.4712 28.4186 13.3602 27.77 13.1601V13.7301C27.77 17.7901 25.35 21.4001 23.58 24.0401L23.22 24.5701C21.5 27.1501 19.22 30.0401 17.99 31.4701C16.81 30.0401 14.48 27.1501 12.76 24.5701L12.42 24.0001C10.65 21.3601 8.22 17.7501 8.22 13.6901C8.22607 12.0086 8.66601 10.3571 9.49727 8.89545C10.3285 7.43378 11.523 6.2114 12.965 5.34657C14.4071 4.48174 16.0479 4.00374 17.7288 3.9588C19.4097 3.91386 21.0738 4.30352 22.56 5.09007C22.6396 4.40248 22.8146 3.72934 23.08 3.09007C21.2842 2.22275 19.2973 1.82677 17.3062 1.93941C15.3151 2.05205 13.3855 2.66961 11.699 3.73392C10.0125 4.79824 8.62462 6.27429 7.6661 8.02307C6.70757 9.77186 6.20992 11.7358 6.22 13.7301C6.22 18.4001 8.84 22.3101 10.76 25.1601L11.11 25.6801C13.0203 28.4487 15.0696 31.1188 17.25 33.6801L18.01 34.5701L18.77 33.6801C20.9502 31.1186 22.9994 28.4485 24.91 25.6801L25.26 25.1501C27.17 22.3001 29.79 18.4001 29.79 13.7301C29.78 13.6501 29.77 13.5701 29.77 13.4901V13.4901Z"
-                          fill="white"/>
-                    <path d="M30 11C32.7614 11 35 8.76142 35 6C35 3.23858 32.7614 1 30 1C27.2386 1 25 3.23858 25 6C25 8.76142 27.2386 11 30 11Z"
-                          fill="white"/>
-                    </svg>
-                </span>
-                        ТРЦ «Южный», Пр.Победы 91
-                    </a>
-                </div>
-                <div class="col-12 title text-center mt-3 rellax" data-rellax-speed="0.2">
-                    <img src="img/boss.png" alt="" width="30"> В скором времени планируется открытие ещё 10 точек P.LOVE
-                    FOOD
-                </div>
-            </div>
-        </div>
-    </main>
-    <footer class="container text-center rellax" data-rellax-speed="0.1">
-        <div class="footer-text">
-            <p class="m-0 p-0">PloveFood.</p>
-            <p>Все права защищены.</p>
-        </div>
-    </footer>
+    </div>
+</main>
+<footer class="container text-center rellax" data-rellax-speed="0.1">
+    <div class="footer-text">
+        <p class="m-0 p-0">PloveFood.</p>
+        <p>Все права защищены.</p>
+    </div>
+</footer>
 <script src="js/jquery.js"></script>
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
