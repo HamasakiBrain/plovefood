@@ -29,9 +29,6 @@ header {
 .header-link:last-child {
   margin-right: 0;
 }
-.header-link:first-child {
-  margin-left: 40px;
-}
 
 .font-size-39 {
   font-size: 39px;
